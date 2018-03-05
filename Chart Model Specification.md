@@ -32,14 +32,14 @@
 `plotAreaFormat` : [ChartFormat](#chart-format#)
 
 
-### Legend
+# Legend
 
 `fill`
 
 
-### Axis
+# Axis
 
-### Chart Format
+# Chart Format
 
 `fill` : [FillFormat](#fill-format#)
 > Object. Encapsulates a set of fill formatting options.
@@ -47,7 +47,7 @@
 `line` : [LineFormat](#line-format#)
 > Object. Encapsulates a set of line formatting options.
 
-### Fill Format
+# Fill Format
 `fillType` : [String](#fill-type#)
 > The type of fill.
 
