@@ -15,7 +15,7 @@
 > If true, the series is plotted on the secondary axis
 
 `values` : [XYDataPoint\[\]](#xy-data-point)
-> The data values for the series
+> Array of XY data points for the series
 
 ### XY Data Point
 
