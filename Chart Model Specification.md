@@ -48,6 +48,9 @@ The chart model is a set of Java classes serialized to JSON format. The model co
 `domainMarkers` : [PlotMarkerCollection](#plot-marker-collection)
 > Line markers drawn on the category axis.
 
+### Chart Type
+
+
 
 
 
