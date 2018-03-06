@@ -7,46 +7,46 @@ The chart model is a set of Java classes serialized to JSON format. The model co
 ## Top level members
 
 `valueAxis` : [Axis](axis.md) 
-> Encapsulates the value axis for the chart.
+> Encapsulates the value axis for the chart
 
 `secondValueAxis`: [Axis](axis.md) 
-> Optional. Encapsulates the second value axis for the chart. If the chart does not contain a secondary axis this object will not be present.
+> Optional. Encapsulates the second value axis for the chart. If the chart does not contain a secondary axis this object will not be present
 
 `categoryAxis`: [Axis](axis.md)
-> Encapsulates the category axis for the chart.
+> Encapsulates the category axis for the chart
 
 `secondCategoryAxis`: [Axis](axis.md) 
-> Optional. Encapsulates the second category axis for the chart. If the chart does not contain a secondary axis this object will not be present.
+> Optional. Encapsulates the second category axis for the chart. If the chart does not contain a secondary axis this object will not be present
 
 `chartType`: [String](chart-type.md) 
-> The primary chart type.
+> The primary chart type
  
 `dataSheet`: [DataSheet](data-sheet.md)
 > Encapsulates the chart data.
 
 `legend` : [Legend](legend.md)
-> Optional. Formatting for the chart legend.
+> Optional. Formatting for the chart legend
 
 `pieStartAngle` : Number
-> The angle in degrees for the first segment of a pie chart.
+> The angle in degrees for the first segment of a pie chart
 
 `plotAreaFormat` : [ChartFormat](chart-format.md)
 > Formatting for the plot area.
 
 `seriesGap` : Number
-> The space between two categories in a bar or column chart. Value range from 0 to 1.
+> The space between two categories in a bar or column chart. Value range from 0 to 1
 
 `series` : [Series\[\]](series.md)
-> Array. Contains formatting for each data series in chart.
+> Array. Contains formatting for each data series in chart
 
 `plotDataPoints` : Boolean
-> Some charts are used to only display a legend. In this flag is true, only the legend should be drawn in the chart frame.
+> Some charts are used to only display a legend. In this flag is true, only the legend should be drawn in the chart frame
 
 `rangeMarkers` : [PlotMarkerCollection](plot-marker-collection.md)
-> Line markers drawn on the value axis.
+> Line markers drawn on the value axis
 
 `domainMarkers` : [PlotMarkerCollection](plot-marker-collection.md)
-> Line markers drawn on the category axis.
+> Line markers drawn on the category axis
 
 `linesAsCurve` : Boolean
 > If true, line charts should be drawn with smooth lines between points
