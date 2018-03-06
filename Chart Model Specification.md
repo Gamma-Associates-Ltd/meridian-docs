@@ -18,7 +18,7 @@ The chart model is a set of Java classes serialized to JSON format. The model co
 `secondCategoryAxis`: [Axis](axis.md) 
 > Optional. Encapsulates the second category axis for the chart. If the chart does not contain a secondary axis this object will not be present.
 
-`chartType`: [String](#chart-type) 
+`chartType`: [String](chart-type.md) 
 > The primary chart type.
  
 `dataSheet`: [DataSheet](data-sheet.md)
@@ -36,21 +36,20 @@ The chart model is a set of Java classes serialized to JSON format. The model co
 `seriesGap` : Number
 > The space between two categories in a bar or column chart. Value range from 0 to 1.
 
-`series` : [Series\[\]](#series)
+`series` : [Series\[\]](series.md)
 > Array. Contains formatting for each data series in chart.
 
 `plotDataPoints` : Boolean
 > Some charts are used to only display a legend. In this flag is true, only the legend should be drawn in the chart frame.
 
-`rangeMarkers` : [PlotMarkerCollection](#plot-marker-collection)
+`rangeMarkers` : [PlotMarkerCollection](plot-marker-collection.md)
 > Line markers drawn on the value axis.
 
-`domainMarkers` : [PlotMarkerCollection](#plot-marker-collection)
+`domainMarkers` : [PlotMarkerCollection](plot-marker-collection.md)
 > Line markers drawn on the category axis.
 
-### Chart Type
-
-
+`linesAsCurve` : Boolean
+> If true, line charts should be drawn with smooth lines between points
 
 
 

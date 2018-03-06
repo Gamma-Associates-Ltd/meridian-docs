@@ -44,74 +44,45 @@ The chart format object contains fill and line formatting options used extensive
 
 ### Fill Type
 
-`NONE` : No fill
-
-`SOLID` : Solid fill
-
-`GRADIENT`: Gradient fill
-
-`PATTERN` : Pattern fill
-
-`PICTURE` : Picture fill
+	NONE
+	SOLID
+	GRADIENT
+	PATTERN
+	PICTURE
 
 ### Pattern Type
 
-`DOT_5` : 5%
-
-`DOT_10` : 10%
-
-`DOT_20` : 20%
-
-`DOT_25` : 25%
-
-`DOT_30` : 30%
-
-`DOT_40` : 40%
-
-`DOT_50` : 50%
-
-`DOT_60` : 60%
-
-`DOT_70` : 70%
-`DOT_75` : 75%
-
-`DOT_80` : 80%
-
-`DOT_90` : 90%
-
-`LIGHT_DOWN_DIAGONAL` : Light downward diagonal
-
-`DARK_DOWN_DIAGONAL` : Dark downward diagonal
-
-`WIDE_DOWN_DIAGONAL` : Wide downward diagonal
-
-`LIGHT_UP_DIAGONAL` : Light upward diagonal
-
-`DARK_UP_DIAGONAL` : Dark upward diagonal
-
-`WIDE_UP_DIAGONAL` : Wide upward diagonal
-
-`NARROW_VERTICAL` : Narrow vertical
-
-`LIGHT_VERTICAL` : Light vertical
-
-`DARK_VERTICAL` : Dark vertical
-
-`NARROW_HORIZONTAL` : Narrow horizontal
-
-`LIGHT_HORIZONTAL` : Light horizontal
-
-`DARK_HORIZONTAL` : Dark horizontal
+	DOT_5
+	DOT_10
+	DOT_20
+	DOT_25
+	DOT_30
+	DOT_40
+	DOT_50
+	DOT_60
+	DOT_70
+	DOT_75
+	DOT_80
+	DOT_90
+	LIGHT_DOWN_DIAGONAL
+	DARK_DOWN_DIAGONAL
+	WIDE_DOWN_DIAGONAL
+	LIGHT_UP_DIAGONAL
+	DARK_UP_DIAGONAL
+	WIDE_UP_DIAGONAL
+	NARROW_VERTICAL
+	LIGHT_VERTICAL
+	DARK_VERTICAL
+	NARROW_HORIZONTAL
+	LIGHT_HORIZONTAL
+	DARK_HORIZONTAL
 
 ### Gradient Type
 
-`VERTICAL`
-
-`VERTICAL_CENTER`
-
-`HORIZONTAL`
-
-`HORIZONTAL_CENTER`
+	VERTICAL
+	VERTICAL_CENTER
+	HORIZONTAL
+	HORIZONTAL_CENTER
 
 ### Picture Fill
 
@@ -124,18 +95,13 @@ The chart format object contains fill and line formatting options used extensive
 
 ### Line Type
 
-`NONE` : No line should be drawn
-
-`SOLID` : Solid stroke
-
-`DASH` : A dashed stroke
-
-`DASHDOT` : A dash-dot-dash stoke
-
-`DOT` : A dot stroke
+	NONE
+	SOLID
+	DASH
+	DASHDOT
+	DOT
 
 ### Picture Fill Type
 
-`TILE` : Tile the image in the available space
-
-`STRETCH` Stretch the image to fill the available space
+	TILE
+	STRETCH

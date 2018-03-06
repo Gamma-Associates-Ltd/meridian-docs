@@ -12,7 +12,7 @@
 `font` : [Font](font.md)
 > Font style for the data label text
 
-`position` : [LabelPositionType](#label-position-type)
+`position` : [String](#label-position-type)
 > Position of the data label
 
 ### Label Position Type
