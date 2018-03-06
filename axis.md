@@ -1,6 +1,8 @@
 # Axis
 
-The axis object 
+The axis object describes the range, location, formatting, and display options for a given axis. Not all properties are used, depending on the axis in question, although all of the properties will be present. 
+
+Most charts contain 2 axes (value and category) although some charts contain none. In some cases one or more series may be plotted to the secondary value axis, and not the primary value axis.
 
 `type` : String
 > The axis type

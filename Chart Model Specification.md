@@ -21,10 +21,10 @@ The chart model is a set of Java classes serialized to JSON format. The model co
 `chartType`: [String](#chart-type) 
 > The primary chart type.
  
-`dataSheet`: [Datasheet](#datasheet)
+`dataSheet`: [DataSheet](data-sheet.md)
 > Encapsulates the chart data.
 
-`legend` : [Legend](#legend)
+`legend` : [Legend](legend.md)
 > Optional. Formatting for the chart legend.
 
 `pieStartAngle` : Number
