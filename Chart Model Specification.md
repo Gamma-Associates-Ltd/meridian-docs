@@ -7,22 +7,22 @@ The chart model is a set of Java classes serialized to JSON format. The model co
 ## Top level members
 
 `valueAxis` : [Axis](axis.md) 
-> Encapsulates the value axis for the chart
+> The value axis for the chart
 
 `secondValueAxis`: [Axis](axis.md) 
-> Optional. Encapsulates the second value axis for the chart. If the chart does not contain a secondary axis this object will not be present
+> Optional. The secondary value axis for the chart
 
 `categoryAxis`: [Axis](axis.md)
-> Encapsulates the category axis for the chart
+> The category axis for the chart
 
 `secondCategoryAxis`: [Axis](axis.md) 
-> Optional. Encapsulates the second category axis for the chart. If the chart does not contain a secondary axis this object will not be present
+> Optional. The secondary category axis for the chart
 
 `chartType`: [String](chart-type.md) 
 > The primary chart type
  
 `dataSheet`: [DataSheet](data-sheet.md)
-> Encapsulates the chart data.
+> The chart data
 
 `legend` : [Legend](legend.md)
 > Optional. Formatting for the chart legend
