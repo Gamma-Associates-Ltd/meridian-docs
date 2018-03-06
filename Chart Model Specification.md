@@ -30,7 +30,7 @@ The chart model is a set of Java classes serialized to JSON format. The model co
 `pieStartAngle` : Number
 > The angle in degrees for the first segment of a pie chart.
 
-`plotAreaFormat` : [ChartFormat](#chart-format)
+`plotAreaFormat` : [ChartFormat](chart-format.md)
 > Formatting for the plot area.
 
 `seriesGap` : Number
@@ -50,40 +50,7 @@ The chart model is a set of Java classes serialized to JSON format. The model co
 
 
 
-### Legend
 
-`fill`
-
-
-### Chart Format
-
-`fill` : [FillFormat](#fill-format)
-> Object. Encapsulates a set of fill formatting options.
-
-`line` : [LineFormat](#line-format)
-> Object. Encapsulates a set of line formatting options.
-
-### Fill Format
-`fillType` : [String](#fill-type)
-> The type of fill.
-
-`gradientType` : [String](#gradient-type)
-> The type of gradient.
-
-`patternType` : [String](#pattern-type)
-> The type of pattern.
-
-`color` : [String]
-> HTML hex color code (solid fill only).
-
-`color1` : [String]
-> HTML hex color code (gradient or pattern fill only).
-
-`color2` : [String]
-> HTML hex color code (gradient or pattern fill only).
-
-`picture` : [PictureFill](#picture-fill)
-> Object. Encapsulates the image fill options.
 
 
 
