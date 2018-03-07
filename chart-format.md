@@ -3,30 +3,30 @@
 The chart format object contains fill and line formatting options used extensively throughout the chart. In some contexts only the fill or the line sections are actually used; this will be noted in the docs where appropriate.
 
 `fill` : [FillFormat](#fill-format)
-> Encapsulates a set of fill formatting options.
+> Fill formatting options
 
 `line` : [LineFormat](#line-format)
-> Encapsulates a set of line formatting options.
+> Line formatting options
 
 ### Fill Format
 
 `fillType` : [String](#fill-type)
-> The type of fill.
+> The type of fill
 
 `gradientType` : [String](#gradient-type)
-> The type of gradient.
+> The type of gradient
 
 `patternType` : [String](#pattern-type)
-> The type of pattern.
+> The type of pattern
 
 `color` : String
-> HTML hex color code (solid fill only).
+> HTML color code (solid fill only).
 
 `color1` : String
-> HTML hex color code (gradient or pattern fill only).
+> HTML color code (gradient or pattern fill only).
 
 `color2` : String
-> HTML hex color code (gradient or pattern fill only).
+> HTML color code (gradient or pattern fill only).
 
 `picture` : [PictureFill](#picture-fill)
 > Object. Encapsulates the image fill options.
@@ -34,13 +34,13 @@ The chart format object contains fill and line formatting options used extensive
 ### Line Format
 
 `lineType` : [String](#line-type)
-> The drawing style for the line.
+> The drawing style for the line
 
 `color` : String
-> HTML color format.
+> HTML color format
 
 `weight`: Number
-> Width in pixels of the stoke.
+> Width in pixels of the stoke
 
 ### Fill Type
 
