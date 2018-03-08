@@ -4,9 +4,6 @@ The axis object describes the range, location, formatting, and display options f
 
 Most charts contain 2 axes (value and category) although some charts contain none. In some cases one or more series may be plotted to the secondary value axis, and not the primary value axis.
 
-`type` : String
-> The axis type
-
 `textOrientation` : Number
 > The angle of rotation for the axis labels
 
@@ -42,6 +39,9 @@ Most charts contain 2 axes (value and category) although some charts contain non
 
 `majorUnit` : Number
 > The major unit for the number axis
+
+`numberFormat` : String
+> Number format for number axis labels
 
 
 
