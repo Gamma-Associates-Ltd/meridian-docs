@@ -5,7 +5,7 @@ The axis object describes the range, location, formatting, and display options f
 Most charts contain 2 axes (value and category) although some charts contain none. In some cases one or more series may be plotted to the secondary value axis, and not the primary value axis.
 
 `textOrientation` : Number
-> The angle of rotation for the axis labels
+> The angle of rotation in degrees for the axis labels. The range is 90 to -90
 
 `format` : [ChartFormat](chart-format.md)
 > Formatting for the axis (line only)
