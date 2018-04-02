@@ -51,6 +51,14 @@ The chart model is a set of Java classes serialized to JSON format. The model co
 `linesAsCurve` : Boolean
 > If true, line charts should be drawn with smooth lines between points
 
+`plotOrientation` : [PlotOrientation](#plot-orientation)
+> Orientation of the chart plot. This property controls the location of the value and category axes. 
+
+### Plot Orientation
+
+    HORIZONTAL : Value axis bottom/top, category axis left/right
+    VERTICAL : Value axis left/right, category axis top/bottom
+
 
 
 
