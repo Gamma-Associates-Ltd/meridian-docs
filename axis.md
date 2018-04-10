@@ -43,6 +43,12 @@ Most charts contain 2 axes (value and category) although some charts contain non
 `numberFormat` : String
 > Number format for number axis labels
 
+`plotOrientation` : [PlotOrientation](plot-orientation.md)
+> The orientation of the axis. Left/right for vertical, and top/bottom for horizontal
+
+`dataFormat` : [DataFormatType](data-format-type.md)
+> The format of the data plotted on the axis
+
 
 
 
