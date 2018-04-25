@@ -34,7 +34,7 @@ The chart model is a set of Java classes serialized to JSON format. The model co
 > Formatting for the plot area.
 
 `seriesGap` : Number
-> The space between two categories in a bar or column chart. Value range from 0 to 1
+> The space between two two bar or column clusters as a percentage of the bar or column width. The value will be between 0 and 5.
 
 `series` : [Series\[\]](series.md)
 > Array. Contains formatting for each data series in chart
