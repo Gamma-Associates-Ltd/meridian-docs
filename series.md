@@ -20,4 +20,7 @@ A chart series object contains all formatting options applied to a series and al
 `points` : [Point\[\]](point.md)
 > Array of series points
 
+`key` : [CodeResponseKey](code-response-key.md)
+> Identifies the source response in mTAB. Used for chart events
+
 

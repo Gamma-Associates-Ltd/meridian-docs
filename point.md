@@ -19,3 +19,6 @@ Most point formatting is absent; in this case the formatting should come from th
 
 `dataLabelText` : String
 > The data label text for the point
+
+`key` : [CodeResponseKey](code-response-key.md)
+> Identifies the source response in mTAB. Used for chart events
