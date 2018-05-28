@@ -18,7 +18,7 @@ The chart model is a set of Java classes serialized to JSON format. The model co
 `secondCategoryAxis`: [Axis](axis.md) 
 > Optional. The secondary category axis for the chart
 
-`chartType`: [String](chart-type.md) 
+`chartType`: [ChartType](chart-type.md) 
 > The primary chart type
  
 `dataSheet`: [DataSheet](data-sheet.md)
@@ -33,8 +33,17 @@ The chart model is a set of Java classes serialized to JSON format. The model co
 `plotAreaFormat` : [ChartFormat](chart-format.md)
 > Formatting for the plot area.
 
+`ringHoleSize` : Number
+> The percent size of the hole (range 0.1 to 0.9)
+
+`ringStartAngle` : Number
+> The starting angle in degrees
+
 `seriesGap` : Number
 > The space between two two bar or column clusters as a percentage of the bar or column width. The value will be between 0 and 5.
+
+`title` : [Title](title.md)
+> Optional. The title for the chart
 
 `series` : [Series\[\]](series.md)
 > Array. Contains formatting for each data series in chart
