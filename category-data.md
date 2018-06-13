@@ -19,3 +19,9 @@
 
 `values` : Number[]
 > Array of data values for the series
+
+`seriesKeys` : [CodeResponseKey\[\]](code-response-key.md)
+> Array of mTAB response keys for each series
+
+`categoryKeys` : [CodeResponseKey\[\]](code-response-key.md)
+> Array of mTAB response keys for each category

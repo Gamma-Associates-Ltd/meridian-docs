@@ -3,6 +3,9 @@
 `series` : [XYSeries\[\]](#xy-series)
 > Array containing the XY data for each series
 
+`seriesKeys` : [CodeResponseKey\[\]](code-response-key.md)
+> Array of mTAB response keys for each series
+
 ### XY Series
 
 `name` : String
@@ -16,6 +19,9 @@
 
 `values` : [XYDataPoint\[\]](#xy-data-point)
 > Array of XY data points for the series
+
+`categoryKeys` : [CodeResponseKey\[\]](code-response-key.md)
+> Array of mTAB response keys for each category
 
 ### XY Data Point
 
