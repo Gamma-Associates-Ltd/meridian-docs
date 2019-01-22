@@ -31,5 +31,8 @@
 `y` : Number
 > Optional. The Y value of the point
 
+`z` : Number
+> Optional. The Z value of the point
+
 `name` : String
 > The name of the point

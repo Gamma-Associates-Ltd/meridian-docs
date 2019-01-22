@@ -63,6 +63,12 @@ The chart model is a set of Java classes serialized to JSON format. The model co
 `plotOrientation` : [PlotOrientation](plot-orientation.md)
 > Orientation of the chart plot. This property controls the location of the value and category axes. 
 
+`bubbleScaleFactor` : Number
+> Scale factor to apply to the bubble size (bubble charts only)
+
+`bubbleSizeRepresents` : [BubbleSize]
+> Property to control how bubbles are sized relative to the largest bubble value (bubble charts only). Values are _AREA_ and _WIDTH_
+
 
 
 
